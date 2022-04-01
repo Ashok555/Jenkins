@@ -19,6 +19,7 @@ public class PFLOGIN {
 		System.out.println(windowHandles);
 		List<String> list = new ArrayList<String>(windowHandles);
 		driver.switchTo().window(list.get(1));
+		System.out.println(list.get(1));
 		
 //		for (String handel : windowHandles) {
 //			System.out.println(windowHandles);
