@@ -14,7 +14,7 @@ public class PFLOGIN {
 		driver.get("https://www.epfindia.gov.in/site_en/For_Employees.php");
 		driver.findElement(By.xpath("//a[contains(text(),' (OCS/OTCP)')]")).click();
 		String windowHandle = driver.getWindowHandle();
-//		System.out.println(windowHandle);
+		System.out.println(windowHandle);
 		Set<String> windowHandles = driver.getWindowHandles();
 		System.out.println(windowHandles);
 		List<String> list = new ArrayList<String>(windowHandles);
